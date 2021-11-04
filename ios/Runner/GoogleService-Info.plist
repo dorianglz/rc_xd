@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>123874407634-vq2psm8p5f9re1s542858dqspv7avgtr.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.123874407634-vq2psm8p5f9re1s542858dqspv7avgtr</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC78pUg3ojy5qQfbDVoQIboG09kaUkeljM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>123874407634</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.rcxdIoT.epitech</string>
+	<key>PROJECT_ID</key>
+	<string>rc-car-iot</string>
+	<key>STORAGE_BUCKET</key>
+	<string>rc-car-iot.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:123874407634:ios:a29acdd61b70bb038ba90b</string>
+	<key>DATABASE_URL</key>
+	<string>https://rc-car-iot-default-rtdb.europe-west1.firebasedatabase.app</string>
+</dict>
+</plist>
