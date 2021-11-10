@@ -32,17 +32,27 @@ class _RCXDControllerState extends State<RCXDController> {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  Joystick(
-                    mode: JoystickMode.horizontal,
-                    listener: (details) {
-                      db.updateSteering(details.x * 90 + 90);
+                  Listener(
+                    onPointerUp: (details) {
+                      db.updateSteering(90);
                     },
+                    child: Joystick(
+                      mode: JoystickMode.horizontal,
+                      listener: (details) {
+                        db.updateSteering(details.x * 90 + 90);
+                      },
+                    ),
                   ),
-                  Joystick(
-                    mode: JoystickMode.vertical,
-                    listener: (details) {
-                      db.updateThrottle(details.y * -1 * 90 + 90);
+                  Listener(
+                    onPointerUp: (details) {
+                      db.updateThrottle(90);
                     },
+                    child: Joystick(
+                      mode: JoystickMode.vertical,
+                      listener: (details) {
+                        db.updateThrottle(details.y * -1 * 90 + 90);
+                      },
+                    ),
                   ),
                 ],
               ),
