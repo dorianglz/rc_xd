@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "123874407634",
+    "firebase_url": "https://rc-car-iot-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "rc-car-iot",
+    "storage_bucket": "rc-car-iot.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123874407634:android:7e5f3262b6a6e55a8ba90b",
+        "android_client_info": {
+          "package_name": "com.pierro23.WirelessCar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "123874407634-mco1643nrm3tdtdqf9niojev5ag8gi1b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3VJ9OcVmrWHV-y6qaybqh_XLEnxQk65w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "123874407634-mco1643nrm3tdtdqf9niojev5ag8gi1b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
