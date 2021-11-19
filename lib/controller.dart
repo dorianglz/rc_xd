@@ -69,7 +69,8 @@ class _RCXDControllerState extends State<RCXDController> {
                       border: Border.all(color: Colors.black),
                       borderRadius: BorderRadius.circular(6),
                     ),
-                    child: Text("Engine: " + engineSensor.toString() + "°C"),
+                    child: Text(
+                        "Engine: " + engineSensor.toStringAsFixed(2) + "°C"),
                   ),
                   Image.asset(
                     'assets/images/hot_wheels.png',
@@ -83,8 +84,9 @@ class _RCXDControllerState extends State<RCXDController> {
                       border: Border.all(color: Colors.black),
                       borderRadius: BorderRadius.circular(6),
                     ),
-                    child: Text(
-                        "Controller: " + controllerSensor.toString() + "°C"),
+                    child: Text("Controller: " +
+                        controllerSensor.toStringAsFixed(2) +
+                        "°C"),
                   )
                 ],
               ),

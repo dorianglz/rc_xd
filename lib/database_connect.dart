@@ -21,7 +21,7 @@ class DatabaseConnect {
   }
 
   Future<double> getEngineSensor() async {
-    var temperature = 0.0;
+    num temperature = 0.0;
     await databaseReference
         .child(refSensors + "/first")
         .get()
@@ -30,7 +30,7 @@ class DatabaseConnect {
   }
 
   Future<double> getControllerSensor() async {
-    var temperature = 0.0;
+    num temperature = 0.0;
     await databaseReference
         .child(refSensors + "/second")
         .get()
